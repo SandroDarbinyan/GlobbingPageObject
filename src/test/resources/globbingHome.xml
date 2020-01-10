@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Globbing" verbose="1">
+	<test name="Pages">
+		<classes>
+			 <class name="am.globbing.register.RegisterPageTest"> 
+				  <methods>
+				 	<!--    <include name="registerTest8" />  --> 
+				  <include name="bregisterTest9" />  
+				  <include name="aregisterTest10" />  
+				 </methods> 
+			</class>  
+			 <!--  <class name="am.globbing.header.GlobbingHeaderPageTest" /> 
+			 <class name="am.globbing.menu.GlobbingMenuPageTest"> 
+				<methods>
+				         <include name="aboutUsLinkTest" />
+				 </methods>
+			</class> 
+			<class name="am.globbing.calculator.GlobbingCalculatorPageTest">
+			 	<methods>
+			 		 <include name="calcFunctionalityRuTest" /> 
+				     <include name="calcFunctionalityGbTest" /> 
+				 </methods> 
+			</class>  -->
+		</classes>
+	</test>
+</suite>
